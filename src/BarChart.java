@@ -16,8 +16,8 @@ public class BarChart {
             }
         }
             for(int floor = max;floor>=1;floor--){
-                for (int j : arr) {
-                    if (j >= floor) {
+                for(int j = 0;j< arr.length;j++){
+                    if(arr[j] >= floor){
                         System.out.print("*\t");
                     } else {
                         System.out.print("\t");
